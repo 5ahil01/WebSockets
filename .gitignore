@@ -1,0 +1,24 @@
+# Ignore all files with a .log extension
+*.log
+
+# Ignore a specific file
+my_secret_key.pem
+
+# Ignore a specific directory and all its contents
+node_modules/
+build/
+
+# Ignore all files with a .tmp extension anywhere in the project
+**/*.tmp
+
+# Ignore operating system specific files (e.g., macOS)
+.DS_Store
+
+# Ignore IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Ignore environment variable files
+.env
+
+# Negate a pattern (include a file that would otherwise be ignored)
+!important.log
